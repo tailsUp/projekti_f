@@ -17,3 +17,8 @@ frontendin ja serverin käyttöön.
 npm run server TAI npx json-server --port=3001 --watch DB.json
 
 Oletusarvoisesti JSON Server käynnistyy porttiin 3000. Koska Vitellä luodut projektit varaavat jo portin 3000, käytämme nyt kuitenkin porttia 3001.
+
+*** Buildin tekeminen webistä ***
+
+Komento: npm run build
+Komento jolla Dist voidaan siirtää suoraan backend alle (kopioituna): cp -r dist ../backend
